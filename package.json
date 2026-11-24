@@ -1,0 +1,27 @@
+{
+  "name": "malik-fiaz-md",
+  "version": "2.0.0",
+  "description": "Malik Fiaz MD \u2014 Complete WhatsApp Multi-Device Bot with Telegram Control & Full Command Suite",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "malik-fiaz-md",
+    "whatsapp",
+    "baileys",
+    "telegram",
+    "multi-device"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^9.4.0",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5",
+    "qrcode": "^1.5.4"
+  }
+}
